@@ -1,0 +1,9 @@
+The solution is to ensure there are spaces between the operators and operands within the `calc()` function.  The following code demonstrates the correct syntax:
+
+```css
+.element {
+  width: calc(100% - 10px);
+  height: calc(50% + 20px);
+}
+```
+This version correctly calculates the width and height, taking into account the spacing around the operators.
